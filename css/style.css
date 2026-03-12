@@ -1,0 +1,219 @@
+/* =========================
+   NAVBAR CONTAINER
+   ========================= */
+
+.navbar-container{
+    
+
+    background:#222;
+    color:white;
+}
+
+
+/* =========================
+   TOP NAVBAR
+   ========================= */
+
+.navbar-top{
+    
+    padding:15px;
+
+    /* color coding */
+    background:#444;
+}
+
+
+/* =========================
+   LOGO AREA
+   ========================= */
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+
+    /* debug color */
+    background:#5c8df6;
+    padding:10px;
+}
+
+
+/* =========================
+   SEARCH AREA
+   ========================= */
+
+.search-container{
+    background:#f6a25c;
+    padding:8px;
+}
+
+
+/* =========================
+   BOTTOM NAVBAR
+   ========================= */
+
+.navbar-bottom{
+    background:#666;
+    padding:10px;
+}
+
+
+/* =========================
+   NAV BUTTONS
+   ========================= */
+
+.nav-button{
+    background:#8a8a8a;
+    padding:10px;
+    margin:2px;
+
+    cursor:pointer;
+}
+
+.nav-button:hover{
+    background:#a0a0a0;
+}
+
+
+/* =========================
+   MAIN CONTENT
+   ========================= */
+
+main{
+    background:#eaeaea;
+    padding:40px;
+}
+
+/* =========================
+   HERO SECTION
+   ========================= */
+
+.hero-section{
+
+    height:60vh;
+
+    /* center content vertically */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    /* debug color */
+    background:#c9d9ff;
+}
+
+
+/* =========================
+   PRODUCT GRID
+   ========================= */
+
+.product-section{
+
+    padding:80px 0;
+
+    /* debug color */
+    background:#f5f5f5;
+}
+
+
+.product-card{
+
+    padding:60px 20px;
+
+    border:none;
+
+    background:#8a8a8a;
+    color:white;
+
+    font-size:20px;
+
+    transition:0.2s;
+}
+
+.product-card:hover{
+
+    background:#6e6e6e;
+
+    transform:scale(1.03);
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+.footer-section{
+
+    margin-top:80px;
+
+    padding:40px;
+
+    background:#1a1a1a;
+    color:white;
+}
+
+/* =========================
+   PRODUCT EXPAND PANEL
+   ========================= */
+
+.product-expand{
+
+padding:40px;
+background:#e8e8e8;
+margin-top:10px;
+border-radius:6px;
+
+}
+
+
+/* =========================
+   PRODUCT TYPE
+   ========================= */
+
+.product-type{
+
+padding:25px 0;
+border-bottom:1px solid #ccc;
+
+}
+
+.product-type:last-child{
+border-bottom:none;
+}
+
+
+/* =========================
+   TYPE TITLE
+   ========================= */
+
+.type-title{
+
+font-weight:bold;
+font-size:20px;
+
+}
+
+
+/* =========================
+   SUBTYPE
+   ========================= */
+
+.subtype{
+
+text-align:center;
+margin-bottom:20px;
+
+}
+
+.subtype img{
+
+width:100%;
+max-width:100px;
+border-radius:6px;
+
+}
+
+.subtype p{
+
+margin-top:8px;
+font-size:14px;
+
+}
