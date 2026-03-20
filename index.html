@@ -21,8 +21,42 @@
 <!-- =========================
      HEADER
      ========================= -->
-<div id="header"></div>
+<!--<div id="header"></div>-->
 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <!-- Brand / Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img src="images/Logo PrincipalPNG.png" alt="Company Logo" height="70">
+    </a>
+
+    <!-- Toggler for mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+      aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links + search -->
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <!-- Navigation links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="product.html">Product</a></li>
+        <li class="nav-item"><a class="nav-link" href="project.html">Project</a></li>
+        <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+        <li class="nav-item"><a class="nav-link" href="distributor.html">Distributor</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+
+      <!-- Search bar -->
+      <form class="d-flex" role="search" action="search.html" method="GET">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="q">
+        <button class="btn btn-outline-primary" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
 
 <!-- =========================
      HERO SECTION
@@ -50,7 +84,51 @@
      FOOTER
      ========================= -->
 
-<div id="footer"></div>
+<!--<div id="footer"></div>-->
+<footer class="bg-dark text-white mt-5">
+  <div class="container py-4">
+
+    <div class="row">
+
+      <!-- Brand / About -->
+      <div class="col-md-4 mb-3">
+        <h5 class="heading-5">MySite</h5>
+        <p class="small-text text-muted-custom">
+          A short description about your website or company.
+        </p>
+      </div>
+
+      <!-- Links -->
+      <div class="col-md-4 mb-3">
+        <h6 class="heading-6">Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="/" class="small-text">Home</a></li>
+          <li><a href="/about.html" class="small-text">About</a></li>
+          <li><a href="/contact.html" class="small-text">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Social / Extra -->
+      <div class="col-md-4 mb-3">
+        <h6 class="heading-6">Follow</h6>
+        <p class="small-text">
+          Add social links or other info here.
+        </p>
+      </div>
+
+    </div>
+
+    <hr class="border-light">
+
+    <div class="text-center">
+      <p class="small-text mb-0">
+        © 2026 MySite. All rights reserved.
+      </p>
+    </div>
+
+  </div>
+</footer>
+
 
 <script src="js/loadfooter.js"></script>
 <script src="js/loadheader.js"></script>
