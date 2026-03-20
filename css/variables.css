@@ -1,0 +1,27 @@
+:root {
+  /* ===== PRIMARY BRAND ===== */
+  --color-primary: #E30613;
+  /*--color-primary-light: #6366f1;
+  --color-primary-dark: #3730a3;*/
+
+  /* ===== SECONDARY ===== */
+  --color-secondary: #4A4A49;
+
+  /* ===== NEUTRALS ===== */
+  --color-bg: #ffffff;
+  --color-surface: #f8f9fa;
+  --color-text: #212529;
+  --color-muted: #6c757d;
+
+  /* ===== STATES ===== */
+  --color-success: #198754;
+  --color-danger: #dc3545;
+  --color-warning: #ffc107;
+  --color-info: #0dcaf0;
+
+  /* ===== COMPLEMENTARIES ===== */
+  --color-darkBlueComp: #003366;
+  --color-redComp: #5A1A1A;
+  --color-lightBlueComp: #A3C8F0;
+
+}

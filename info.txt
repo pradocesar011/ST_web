@@ -1,0 +1,21 @@
+-To do
+
+Editar html actual para que siga el nuevo typograhpy.css
+
+Definir componentes y sus variables
+
+implementar componentes y variables (variables.css como referencia para el resto)
+
+    variables.css  →  defines values (colors, fonts)
+            ↓
+    typography.css & components.css →  uses variables for text and components
+            ↓
+    style.css      →  uses variables for components/layout
+            ↓
+    HTML           →  uses classes from those files
+
+
+Index
+Productos (qué productos ofrecen, en qué categorías están y como quieren describirlos. Se van a vender?)
+About (qué información de la compañía quieren mostrar)
+Contact (de qué manera quieren ser contactados)
